@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66c2ff"
+    tools:context=".SignUp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:id="@+id/tEmail"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="65dp"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/tEmail"
+            android:layout_below="@+id/tEmail"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_alignLeft="@+id/tEmail" />
+
+        <EditText
+            android:id="@+id/ConfPass"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/tEmail"
+            android:layout_below="@+id/etPassword"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:layout_alignLeft="@+id/tEmail" />
+
+        <EditText
+            android:id="@+id/PhnNumb"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/tEmail"
+            android:layout_below="@+id/ConfPass"
+            android:layout_marginTop="30dp"
+            android:ems="12"
+            android:hint="Phone Number"
+            android:inputType="numberDecimal"
+            android:layout_alignLeft="@+id/tEmail" />
+
+        <EditText
+            android:id="@+id/deviceID"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/tEmail"
+            android:layout_below="@+id/PhnNumb"
+            android:layout_marginTop="30dp"
+            android:ems="12"
+            android:hint="Device-ID"
+            android:inputType="numberDecimal"
+            android:layout_alignLeft="@+id/tEmail" />
+
+        <Button
+            android:id="@+id/bsignup"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/deviceID"
+            android:layout_marginTop="37dp"
+            android:background="@drawable/shape_bg"
+            android:layout_centerInParent="true"
+            android:padding="@dimen/dip10"
+            android:text="SIGNUP" />
+
+
+
+
+        <TextView
+            android:id="@+id/tlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bsignup"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="27dp"
+            android:clickable="true"
+            android:text="Alreday Have an Account?Please LOGIN..."
+            android:textColor="#000000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/tEmail"
+            android:layout_alignStart="@+id/tEmail"
+            android:layout_below="@+id/tlogin"
+            android:layout_marginTop="16dp" >
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center|bottom"
+                android:visibility="gone"
+
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

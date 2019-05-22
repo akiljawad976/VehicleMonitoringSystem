@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "925122061876",
+    "firebase_url": "https://vehiclemonitoringsystem-20880.firebaseio.com",
+    "project_id": "vehiclemonitoringsystem-20880",
+    "storage_bucket": "vehiclemonitoringsystem-20880.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925122061876:android:777d23a629f2336f",
+        "android_client_info": {
+          "package_name": "com.example.mist.vehiclemonitoringsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925122061876-knpqmnue3r1apil32u96ftuiphm5ggi2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mist.vehiclemonitoringsystem",
+            "certificate_hash": "044e6075b636aaae8362b6f0ebe162ca699a28d0"
+          }
+        },
+        {
+          "client_id": "925122061876-sc3qcvgvvl0e0g6g6gh4ck4svld34g9q.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "925122061876-sc3qcvgvvl0e0g6g6gh4ck4svld34g9q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9_vuaxwcz6fH9RHeqvtXZVbqmpc1jSzQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "925122061876-sc3qcvgvvl0e0g6g6gh4ck4svld34g9q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Vehicle Monitoring System</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="alertemail">Please Enter Valid Email</string>
+    <string name="alertpass">Please Enter Password</string>
+    <string name="alertpassbig">Password must be more than 6 Characters</string>
+    <string name="alertinvalid">Invalid Email or Password</string>
+</resources>
